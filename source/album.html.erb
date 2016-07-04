@@ -1,0 +1,62 @@
+---
+title: Shoegaze.pw
+---
+
+<section id="albums" class="page single album"
+         data-spotify-id="<%= album.spotify_id %>"
+         data-album-index="<%= album.album_index %>">
+  <div class="container">
+
+    <div class="desktop-3 tablet-12 nested columns">
+
+      <div class="sidebar sticky">
+
+        <div class="desktop-3 tablet-12 columns">
+
+          <div class="box-info">
+            <h3 class="border-top">Band</h3>
+            <p>Chapterhouse</p>
+            <p><%= album %></p>
+          </div>
+
+        </div>
+
+        <div class="desktop-3 tablet-12 columns">
+
+          <div class="box-info">
+            <h3 class="border-top">Album</h3>
+            <p>Whirlpool</p>
+          </div>
+
+        </div>
+
+        <div class="desktop-3 tablet-6 mobile-half columns">
+
+          <div class="box-info">
+            <h4 class="border-top">Year</h4>
+            <p> 1998 <p>
+          </div>
+
+        </div>
+
+        <div class="clear"></div>
+
+      </div>
+
+    </div>
+
+    <div class="desktop-9 tablet-12 columns">
+      <h3 class="border-top"></h3>
+
+      <img src="" alt="" class="album-cover">
+
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/<%= album.youtube_id %>" frameborder="0" allowfullscreen></iframe>
+
+      <div class="clear"></div>
+
+    </div>
+
+    <div class="clear"></div>
+
+  </div>
+</section>

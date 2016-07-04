@@ -1,0 +1,24 @@
+---
+title: Shoegaze.pw
+---
+
+<section id="albums">
+  <div class="container">
+    <div class="desktop-12 columns"><div class="border-top"></div></div>
+
+    <% data.the_nineties.albums.each do |key, album| %>
+      <a href="/<%= album.title.downcase %>" class="permalink album"
+         data-spotify-id="<%= album.spotify_id %>"
+         data-album-index="<%= album.album_index %>">
+        <div class="desktop-3 mobile-half columns">
+          <div class="item first-row">
+            <h3><%= album.title %></h3>
+            <span class="category"><%= key.capitalize %></span>
+            <img src="" alt="" class="album-cover"/>
+          </div>
+        </div>
+      </a>
+    <% end %>
+
+  </div>
+</section>
