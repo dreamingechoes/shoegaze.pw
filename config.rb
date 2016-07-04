@@ -15,11 +15,18 @@ page '/*.txt', layout: false
 # page "/path/to/file.html", layout: :otherlayout
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
-#  which_fake_page: "Rendering a fake page with a local variable" }
+["the_eighties", "the_nineties", "the_two_thousands", "the_twenty_tens"].each do |decade|
+  proxy "/#{decade.gsub('_', '-')}.html", "/decade.html", locals: { }
+
+  data.send(decade).albums.each do |key, album|
+    proxy "/#{decade.gsub('_', '-')}/#{album.title.downcase}.html", "/album.html", locals: { album: album }
+  end
+end
 
 # General configuration
 activate :sprockets
+activate :directory_indexes
+
 config[:js_dir] = 'assets/javascripts'
 config[:css_dir] = 'assets/stylesheets'
 config[:fonts_dir] = 'assets/fonts'
