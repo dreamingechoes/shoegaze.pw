@@ -5,6 +5,8 @@
 
   <title><%= current_page.data.title || "Shoegaze.pw" %></title>
 
+  <%= yield_content :metas %>
+
   <!--[if lt IE 8]>
     <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
   <![endif]-->
