@@ -2,12 +2,25 @@
 title: Shoegaze.pw
 ---
 
+<% content_for :metas do %>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="http://shoegaze.pw/<%= slugify(decade) %>">
+  <meta name="twitter:title" content="<%= decade %> - Shoegaze.pw">
+  <meta name="twitter:description" content="The story of the shoegaze through the essentials.">
+  <meta name="twitter:image" content="http://shoegaze.pw/assets/images/home.jpg">
+
+  <meta property="og:title" content="<%= decade %> - Shoegaze.pw" />
+  <meta property="og:description" content="The story of the shoegaze through the essentials." />
+  <meta property="og:url" content="http://shoegaze.pw/<%= slugify(decade) %>" />
+  <meta property="og:image" content="http://shoegaze.pw/assets/images/home.jpg" />
+<% end %>
+
 <section id="albums">
   <div class="container">
     <div class="desktop-12 columns"><div class="border-top"></div></div>
 
-    <% data.the_nineties.albums.each do |key, album| %>
-      <a href="/<%= album.title.downcase %>" class="permalink album"
+    <% data.send(decade).albums.each do |key, album| %>
+      <a href="/<%= slugify(decade) %>/<%= slugify(album.title) %>" class="permalink album"
          data-spotify-id="<%= album.spotify_id %>"
          data-album-index="<%= album.album_index %>">
         <div class="desktop-3 mobile-half columns">
