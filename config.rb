@@ -16,7 +16,7 @@ page '/*.txt', layout: false
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 ["the_eighties", "the_nineties", "the_two_thousands", "the_twenty_tens"].each do |decade|
-  proxy "/#{decade.gsub('_', '-')}.html", "/decade.html", locals: { }
+  proxy "/#{decade.gsub('_', '-')}.html", "/decade.html", locals: { decade: decade }
 
   data.send(decade).albums.each do |key, album|
     proxy "/#{decade.gsub('_', '-')}/#{album.title.downcase}.html", "/album.html", locals: { album: album }
@@ -42,11 +42,11 @@ end
 ###
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def slugify(element)
+    element.downcase.gsub(/(_)+|( )+/, '-')
+  end
+end
 
 # Build-specific configuration
 configure :build do
