@@ -4,8 +4,7 @@ $(function() {
   function get_album_info(artist_id, album_index) {
     $.get("https://api.spotify.com/v1/artists/" + artist_id + "/albums", function(data) {
       $(".album-cover").attr("src", data['items'][album_index]['images'][1]['url']);
-      $(".playlist").attr("src", "https://embed.spotify.com/?uri=" + data['items'][album_index]['uri'])
-                    .width($(".main").width());
+      $(".playlist").attr("src", "https://embed.spotify.com/?uri=" + data['items'][album_index]['uri']);
     }).fail(function() {
       $(".album-cover").attr("src", "");
       $(".playlist").attr("src", "");
@@ -32,10 +31,5 @@ $(function() {
     $.each($(".artist-detail"), function(element) {
       get_artist_info($(this).attr("data-spotify-id"));
     });
-  }
-
-  // Modify the width of the about playlist
-  if($("#about .playlist").length > 0) {
-    $("#about .playlist").width($("#about .main").width());
   }
 });
