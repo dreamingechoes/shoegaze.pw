@@ -16,10 +16,10 @@ page '/*.txt', layout: false
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 ["the_eighties", "the_nineties", "the_two_thousands", "the_twenty_tens"].each do |decade|
-  proxy "/#{decade.gsub('_', '-')}.html", "/decade.html", locals: { decade: decade }
+  proxy "/#{decade.gsub(/(_)+|( )+/, '-')}.html", "/decade.html", locals: { decade: decade }, ignore: true
 
   data.send(decade).albums.each do |key, album|
-    proxy "/#{decade.gsub('_', '-')}/#{album.title.downcase}.html", "/album.html", locals: { album: album }
+    proxy "/album/#{album.title.downcase.gsub(/(_)+|( )+/, '-')}.html", "/album.html", locals: { band: key, album: album }, ignore: true
   end
 end
 
