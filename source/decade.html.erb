@@ -20,7 +20,7 @@ title: Shoegaze.pw
     <div class="desktop-12 columns"><div class="border-top"></div></div>
 
     <% data.send(decade).albums.each do |key, album| %>
-      <a href="/<%= slugify(decade) %>/<%= slugify(album.title) %>" class="permalink album"
+      <a href="/album/<%= slugify(album.title) %>.html" class="permalink album-detail"
          data-spotify-id="<%= album.spotify_id %>"
          data-album-index="<%= album.album_index %>">
         <div class="desktop-3 mobile-half columns">
