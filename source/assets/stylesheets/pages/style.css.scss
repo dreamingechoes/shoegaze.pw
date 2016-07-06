@@ -1368,3 +1368,19 @@ html[xmlns] .slides {
     }
   }
 }
+
+.responsive-iframe {
+   width: 100%;
+   padding-top: 75%;
+   position: relative;
+
+   iframe {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+  }
+}
