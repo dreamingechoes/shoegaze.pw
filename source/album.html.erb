@@ -2,18 +2,14 @@
 title: Shoegaze.pw
 ---
 
-<% content_for :metas do %>
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="http://shoegaze.pw/album/<%= slugify(album.title) %>.html">
-  <meta name="twitter:title" content="Album - Shoegaze.pw">
-  <meta name="twitter:description" content="Shoegazing (also known as shoegaze) is a subgenre of alternative rock that emerged from the United Kingdom in the late 1980s and reached peak popularity in the early 1990s.">
-  <meta name="twitter:image" content="http://shoegaze.pw/assets/images/home.jpg">
-
-  <meta property="og:title" content="About - Shoegaze.pw" />
-  <meta property="og:description" content="Shoegazing (also known as shoegaze) is a subgenre of alternative rock that emerged from the United Kingdom in the late 1980s and reached peak popularity in the early 1990s." />
-  <meta property="og:url" content="http://shoegaze.pw/album/<%= slugify(album.title) %>.html" />
-  <meta property="og:image" content="http://shoegaze.pw/assets/images/home.jpg" />
+<% content_for :title do %>
+  <title><%= album.title %> - Shoegaze.pw</title>
 <% end %>
+
+<%= partial 'layouts/metas', locals: { title: "Album - Shoegaze.pw",
+                                       description: "Shoegazing (also known as shoegaze) is a subgenre of alternative rock that emerged from the United Kingdom in the late 1980s and reached peak popularity in the early 1990s.",
+                                       url: "http://shoegaze.pw/album/#{slugify(album.title)}.html",
+                                       image: "http://shoegaze.pw/assets/images/home.jpg" } %>
 
 <section id="albums" class="page single album-detail"
          data-spotify-id="<%= album.spotify_id %>"
@@ -37,7 +33,11 @@ title: Shoegaze.pw
 
           <div class="box-info">
             <h4 class="border-top">Band</h4>
-            <p><%= band.humanize %></p>
+            <p>
+              <a href="<%= album.band_url %>" title="See <%= beautify(band.humanize) %> on rateyourmusic.com" target="_blank">
+                <%= beautify(band.humanize) %>
+              </a>
+            </p>
           </div>
 
         </div>
@@ -46,7 +46,11 @@ title: Shoegaze.pw
 
           <div class="box-info">
             <h4 class="border-top">Album</h4>
-            <p><%= album.title %></p>
+            <p>
+              <a href="<%= album.album_url %>" title="See <%= beautify(band.humanize) %> on rateyourmusic.com" target="_blank">
+                <%= album.title %>
+              </a>
+            </p>
           </div>
 
         </div>

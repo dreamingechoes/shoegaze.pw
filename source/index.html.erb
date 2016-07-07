@@ -2,18 +2,10 @@
 title: Shoegaze.pw
 ---
 
-<% content_for :metas do %>
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="http://shoegaze.pw">
-  <meta name="twitter:title" content="Shoegaze.pw">
-  <meta name="twitter:description" content="The story of the shoegaze through the essentials.">
-  <meta name="twitter:image" content="http://shoegaze.pw/assets/images/home.jpg">
-
-  <meta property="og:title" content="Shoegaze.pw" />
-  <meta property="og:description" content="The story of the shoegaze through the essentials." />
-  <meta property="og:url" content="http://shoegaze.pw" />
-  <meta property="og:image" content="http://shoegaze.pw/assets/images/home.jpg" />
-<% end %>
+<%= partial 'layouts/metas', locals: { title: "Shoegaze.pw",
+                             description: "The story of the shoegaze through the essentials.",
+                             url: "http://shoegaze.pw",
+                             image: "http://shoegaze.pw/assets/images/home.jpg" } %>
 
 <section id="albums">
   <div class="container">

@@ -2,18 +2,10 @@
 title: About - Shoegaze.pw
 ---
 
-<% content_for :metas do %>
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="http://shoegaze.pw/about">
-  <meta name="twitter:title" content="About - Shoegaze.pw">
-  <meta name="twitter:description" content="Shoegazing (also known as shoegaze) is a subgenre of alternative rock that emerged from the United Kingdom in the late 1980s and reached peak popularity in the early 1990s.">
-  <meta name="twitter:image" content="http://shoegaze.pw/assets/images/about.jpg">
-
-  <meta property="og:title" content="About - Shoegaze.pw" />
-  <meta property="og:description" content="Shoegazing (also known as shoegaze) is a subgenre of alternative rock that emerged from the United Kingdom in the late 1980s and reached peak popularity in the early 1990s." />
-  <meta property="og:url" content="http://shoegaze.pw/about" />
-  <meta property="og:image" content="http://shoegaze.pw/assets/images/about.jpg" />
-<% end %>
+<%= partial 'layouts/metas', locals: { title: "About - Shoegaze.pw",
+                             description: "Shoegazing (also known as shoegaze) is a subgenre of alternative rock that emerged from the United Kingdom in the late 1980s and reached peak popularity in the early 1990s.",
+                             url: "http://shoegaze.pw/about",
+                             image: "http://shoegaze.pw/assets/images/about.jpg" } %>
 
 <section id="about">
   <div class="container">
@@ -34,7 +26,7 @@ title: About - Shoegaze.pw
             <iframe src="https://embed.spotify.com/?uri=spotify:user:rey_sombra:playlist:3E3PnMA7UpuE3hJivwFW1T" frameborder="0" allowtransparency="true" class="playlist"></iframe>
           </div>
           <br> <br>
-          <strong>Note:</strong> All the images, songs and sources are &copy; of their respective owners.
+          <strong>Note:</strong> All the images, songs and sources are &copy; of their respective owners. The information showed on this website is extracted with <a href="https://developer.spotify.com/web-api/" target="_blank">Spotify API</a> and from <a href="https://rateyourmusic.com">rateyourmusic.com</a>.
         </p>
       </div>
 
