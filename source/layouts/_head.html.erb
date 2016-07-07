@@ -3,8 +3,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
-  <title><%= current_page.data.title || "Shoegaze.pw" %></title>
-
+  <% if content_for?(:title) %>
+    <%= yield_content :title %>
+  <% else %>
+    <title><%= current_page.data.title || "Shoegaze.pw" %></title>
+  <% end %>
+  
   <%= yield_content :metas %>
 
   <!--[if lt IE 8]>
