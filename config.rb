@@ -46,6 +46,10 @@ helpers do
   def slugify(element)
     element.downcase.gsub(/(_)+|( )+/, '-')
   end
+
+  def beautify(element)
+    element.gsub(/(_)+|(-)+/, ' ').split(' ').map(&:capitalize).join(' ')
+  end
 end
 
 # Build-specific configuration
