@@ -27,7 +27,16 @@ title: Shoegaze.pw
         <div class="desktop-3 tablet-12 columns">
 
           <div class="box-info">
-            <h3 class="border-top">Band</h3>
+            <h3 class="border-top"></h3>
+            <img src="" alt="" class="album-cover">
+          </div>
+
+        </div>
+
+        <div class="desktop-3 tablet-12 columns">
+
+          <div class="box-info">
+            <h4 class="border-top">Band</h4>
             <p><%= band.humanize %></p>
           </div>
 
@@ -36,7 +45,7 @@ title: Shoegaze.pw
         <div class="desktop-3 tablet-12 columns">
 
           <div class="box-info">
-            <h3 class="border-top">Album</h3>
+            <h4 class="border-top">Album</h4>
             <p><%= album.title %></p>
           </div>
 
@@ -45,8 +54,8 @@ title: Shoegaze.pw
         <div class="desktop-3 tablet-12 columns">
 
           <div class="box-info">
-            <h4 class="border-top">Cover</h4>
-            <p> <img src="" alt="" class="album-cover"> </p>
+            <h4 class="border-top">Year</h4>
+            <p><%= album.year %></p>
           </div>
 
         </div>
@@ -58,7 +67,7 @@ title: Shoegaze.pw
     </div>
 
     <div class="desktop-9 tablet-12 columns main">
-      <h3 class="border-top"></h3>
+      <h4 class="border-top"></h4>
 
       <div class="artist-detail" data-spotify-id="<%= album.spotify_id %>">
         <img src="" alt="" class="artist-image">
