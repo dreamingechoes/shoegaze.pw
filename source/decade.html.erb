@@ -21,8 +21,8 @@ title: Shoegaze.pw
          data-album-index="<%= album.album_index %>">
         <div class="desktop-3 mobile-half columns">
           <div class="item first-row">
-            <h3><%= album.title %></h3>
-            <span class="category"><%= key.capitalize %></span>
+            <h3><%= beautify(album.title) %></h3>
+            <span class="category"><%= beautify(key.capitalize) %></span>
             <img src="" alt="" class="album-cover"/>
           </div>
         </div>
