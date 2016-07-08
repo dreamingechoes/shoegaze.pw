@@ -1,10 +1,10 @@
 $(function() {
   SocialShareKit.init();
 
-  function get_album_info(artist_id, album_index) {
+  function get_album_info(artist_id, album_index, element) {
     $.get("https://api.spotify.com/v1/artists/" + artist_id + "/albums", function(data) {
-      $(".album-cover").attr("src", data['items'][album_index]['images'][1]['url']);
-      $(".playlist").attr("src", "https://embed.spotify.com/?uri=" + data['items'][album_index]['uri']);
+      element.find(".album-cover").attr("src", data['items'][album_index]['images'][1]['url']);
+      element.find(".playlist").attr("src", "https://embed.spotify.com/?uri=" + data['items'][album_index]['uri']);
     }).fail(function() {
       $(".album-cover").attr("src", "");
       $(".playlist").attr("src", "");
@@ -22,7 +22,7 @@ $(function() {
   // Init album details from Spotify API
   if($(".album-detail").length > 0) {
     $.each($(".album-detail"), function(element) {
-      get_album_info($(this).attr("data-spotify-id"), $(this).attr("data-album-index"));
+      get_album_info($(this).attr("data-spotify-id"), $(this).attr("data-album-index"), $(this));
     });
   }
 
