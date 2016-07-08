@@ -1,4 +1,11 @@
 albums:
+  cocteau_twins:
+    title: Heaven Or Las Vegas
+    band_url: https://rateyourmusic.com/artist/cocteau_twins
+    album_url: https://rateyourmusic.com/release/album/cocteau_twins/heaven_or_las_vegas
+    spotify_id: 5Wabl1lPdNOeIn0SQ5A1mp
+    album_index: 11
+    year: 1990
   chapterhouse:
     title: Whirlpool
     band_url: https://rateyourmusic.com/artist/chapterhouse

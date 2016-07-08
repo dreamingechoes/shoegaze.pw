@@ -1,8 +1,36 @@
 albums:
-  chapterhouse:
-    title: Whirlpool
-    band_url: https://rateyourmusic.com/artist/chapterhouse
-    album_url: https://rateyourmusic.com/release/album/chapterhouse/whirlpool
-    spotify_id: 3r94PF71LWRI5K6wqclNjQ
+  the_jesus_and_mary_chain:
+    title: Psychocandy
+    band_url: https://rateyourmusic.com/artist/the_jesus_and_mary_chain
+    album_url: https://rateyourmusic.com/release/album/the_jesus_and_mary_chain/psychocandy
+    spotify_id: 4rjlerN21ygkIhmUv55irs
+    album_index: 13
+    year: 1985
+  the_house_of_love:
+    title: The House Of Love
+    band_url: https://rateyourmusic.com/artist/the_house_of_love
+    album_url: https://rateyourmusic.com/release/album/the_house_of_love/the_house_of_love_f3
+    spotify_id: 4tfyTbsNNN5xfxKDwG4VfP
+    album_index: 10
+    year: 1988
+  a_r_kane:
+    title: Sixty Nine
+    band_url: https://rateyourmusic.com/artist/a_r__kane
+    album_url: https://rateyourmusic.com/release/album/a_r__kane/69
+    spotify_id: 7JXwnoNAAY276k8wZVmpYf
+    album_index: 9
+    year: 1988
+  ultra_vivid_scene:
+    title: Ultra Vivid Scene
+    band_url: https://rateyourmusic.com/artist/ultra_vivid_scene
+    album_url: https://rateyourmusic.com/release/album/ultra_vivid_scene/ultra_vivid_scene
+    spotify_id: 3tW6ylfdDCxcBHqZJjVwrH
     album_index: 2
-    year: 1991
+    year: 1988
+  galaxie_500:
+    title: Today
+    band_url: https://rateyourmusic.com/artist/galaxie_500
+    album_url: https://rateyourmusic.com/release/album/galaxie_500/today
+    spotify_id: 6guTJsgPymDUVfqDJyz5UG
+    album_index: 5
+    year: 1988

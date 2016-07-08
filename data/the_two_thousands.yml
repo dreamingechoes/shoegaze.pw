@@ -1,8 +1,8 @@
 albums:
-  chapterhouse:
-    title: Whirlpool
-    band_url: https://rateyourmusic.com/artist/chapterhouse
-    album_url: https://rateyourmusic.com/release/album/chapterhouse/whirlpool
-    spotify_id: 3r94PF71LWRI5K6wqclNjQ
-    album_index: 2
-    year: 1991
+  astrobrite:
+    title: Crush
+    band_url: https://rateyourmusic.com/artist/astrobrite
+    album_url: https://rateyourmusic.com/release/album/astrobrite/crush
+    spotify_id: 1nerWM6ECWXUcvDgGtBLcJ
+    album_index: 1
+    year: 2001
