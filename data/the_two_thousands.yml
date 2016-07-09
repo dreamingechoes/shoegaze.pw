@@ -6,3 +6,10 @@ albums:
     spotify_id: 1nerWM6ECWXUcvDgGtBLcJ
     album_index: 1
     year: 2001
+  the_pains_of_being_pure_at_heart:
+    title: The Pains Of Being Pure At Heart
+    band_url: https://rateyourmusic.com/artist/the_pains_of_being_pure_at_heart
+    album_url: https://rateyourmusic.com/release/album/the_pains_of_being_pure_at_heart/the_pains_of_being_pure_at_heart
+    spotify_id: 3zmmBJseZelpVEHj8S6Dek
+    album_index: 2
+    year: 2009

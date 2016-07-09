@@ -6,6 +6,34 @@ albums:
     spotify_id: 5Wabl1lPdNOeIn0SQ5A1mp
     album_index: 11
     year: 1990
+  sonic_boom:
+    title: Spectrum
+    band_url: https://rateyourmusic.com/artist/sonic_boom
+    album_url: https://rateyourmusic.com/release/album/sonic_boom/spectrum
+    spotify_id: 4lBmxg4Z1e9NTDD05a2mhI
+    album_index: 0
+    year: 1990
+  ride:
+    title: Nowhere
+    band_url: https://rateyourmusic.com/artist/ride
+    album_url: https://rateyourmusic.com/release/album/ride/nowhere
+    spotify_id: 0WPY9nnBy01s5QOt4o4oQX
+    album_index: 10
+    year: 1990
+  the_darkside:
+    title: All That Noise
+    band_url: https://rateyourmusic.com/artist/the_darkside
+    album_url: https://rateyourmusic.com/release/album/the_darkside/all_that_noise
+    spotify_id: 0SGOEHwGgXP3c2JcYfYLbp
+    album_index: 1
+    year: 1990
+  swervedriver:
+    title: Raise
+    band_url: https://rateyourmusic.com/artist/swervedriver
+    album_url: https://rateyourmusic.com/release/album/swervedriver/raise
+    spotify_id: 0Sd7X8SxWV0AyDLbvd4uEu
+    album_index: 8
+    year: 1991
   chapterhouse:
     title: Whirlpool
     band_url: https://rateyourmusic.com/artist/chapterhouse
@@ -13,3 +41,73 @@ albums:
     spotify_id: 3r94PF71LWRI5K6wqclNjQ
     album_index: 2
     year: 1991
+  the_charlottes:
+    title: Things Come Apart
+    band_url: https://rateyourmusic.com/artist/the_charlottes
+    album_url: https://rateyourmusic.com/release/album/the_charlottes/things_come_apart
+    spotify_id: 4kgTkv0kJu4b2psOX7yJNL
+    album_index: 1
+    year: 1991
+  the_telescopes:
+    title: The Telescopes
+    band_url: https://rateyourmusic.com/artist/the_telescopes
+    album_url: https://rateyourmusic.com/release/album/the_telescopes/the_telescopes
+    spotify_id: 5MTQzge85m3QSefD2LdS1J
+    album_index: 4
+    year: 1992
+  pale_saints:
+    title: In Ribbons
+    band_url: https://rateyourmusic.com/artist/pale_saints
+    album_url: https://rateyourmusic.com/release/album/pale_saints/in_ribbons
+    spotify_id: 0WY2ddzQUF9eh16GiqrElA
+    album_index: 1
+    year: 1992
+  the_nightblooms:
+    title: The Nightblooms
+    band_url: https://rateyourmusic.com/artist/the_nightblooms
+    album_url: https://rateyourmusic.com/release/album/the_nightblooms/the_nightblooms
+    spotify_id: 4i6O67IfGTtkmj6AsS6wAF
+    album_index: 1
+    year: 1992
+  the_boo_radleys:
+    title: Giant Steps
+    band_url: https://rateyourmusic.com/artist/the_boo_radleys
+    album_url: https://rateyourmusic.com/release/album/the_boo_radleys/giant_steps
+    spotify_id: 6UYwzZChuolxsylHcZcBBP
+    album_index: 5
+    year: 1993
+  slowdive:
+    title: Souvlaki
+    band_url: https://rateyourmusic.com/artist/slowdive
+    album_url: https://rateyourmusic.com/release/album/slowdive/souvlaki
+    spotify_id: 72X6FHxaShda0XeQw3vbeF
+    album_index: 2
+    year: 1994
+  lush:
+    title: Split
+    band_url: https://rateyourmusic.com/artist/lush
+    album_url: https://rateyourmusic.com/release/album/lush/split
+    spotify_id: 3ysp8GwsheDcBxP9q65lBg
+    album_index: 2
+    year: 1994
+  cranes:
+    title: Loved
+    band_url: https://rateyourmusic.com/artist/cranes
+    album_url: https://rateyourmusic.com/release/album/cranes/loved
+    spotify_id: 5q2ehaRqAFmM6tLl4vaVwP
+    album_index: 12
+    year: 1994
+  whipping_boy:
+    title: Heartworm
+    band_url: https://rateyourmusic.com/artist/whipping_boy
+    album_url: https://rateyourmusic.com/release/album/whipping_boy/heartworn
+    spotify_id: 3oadMDBL4Wv7F5lkVwRWy2
+    album_index: 0
+    year: 1995
+  catherine_wheel:
+    title: Adam And Eve
+    band_url: https://rateyourmusic.com/artist/catherine_wheel
+    album_url: https://rateyourmusic.com/release/album/catherine_wheel/adam_and_eve
+    spotify_id: 1QPWAsWIjRcTfvY5uH8dov
+    album_index: 2
+    year: 1997

@@ -34,3 +34,10 @@ albums:
     spotify_id: 6guTJsgPymDUVfqDJyz5UG
     album_index: 5
     year: 1988
+  kitchens_of_distinction:
+    title: Love Is Hell
+    band_url: https://rateyourmusic.com/artist/kitchens_of_distinction
+    album_url: https://rateyourmusic.com/release/album/kitchens_of_distinction/love_is_hell
+    spotify_id: 2duIh1sS0qsKqvoPm0X2g4
+    album_index: 9
+    year: 1989
