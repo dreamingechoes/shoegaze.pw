@@ -39,7 +39,7 @@ albums:
     band_url: https://rateyourmusic.com/artist/swervedriver
     album_url: https://rateyourmusic.com/release/album/swervedriver/raise
     spotify_id: 0Sd7X8SxWV0AyDLbvd4uEu
-    album_index: 8
+    album_index: 9
     year: 1991
   chapterhouse:
     title: Whirlpool
@@ -151,7 +151,7 @@ albums:
     band_url: https://rateyourmusic.com/artist/cranes
     album_url: https://rateyourmusic.com/release/album/cranes/loved
     spotify_id: 5q2ehaRqAFmM6tLl4vaVwP
-    album_index: 12
+    album_index: 13
     year: 1994
   whipping_boy:
     title: Heartworm
