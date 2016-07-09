@@ -15,11 +15,12 @@ title: Shoegaze.pw
   <div class="container">
     <div class="desktop-12 columns"><div class="border-top"></div></div>
 
+    <% i = 1 %>
     <% data.send(decade).albums.each do |key, album| %>
       <a href="/album/<%= slugify(album.title) %>.html" class="permalink album-detail"
          data-spotify-id="<%= album.spotify_id %>"
          data-album-index="<%= album.album_index %>">
-        <div class="desktop-3 mobile-half columns">
+        <div class="desktop-3 columns">
           <div class="item first-row">
             <h3><%= beautify(album.title) %></h3>
             <span class="category"><%= beautify(key.capitalize) %></span>
@@ -27,6 +28,13 @@ title: Shoegaze.pw
           </div>
         </div>
       </a>
+
+      <% if i%4 == 0 %>
+        <div class="clear"></div>
+        <% i = 1 %>
+      <% else %>
+        <% i += 1 %>
+      <% end %>
     <% end %>
 
   </div>
