@@ -6,7 +6,7 @@ title: Shoegaze.pw
   <title><%= beautify(decade) %> - Shoegaze.pw</title>
 <% end %>
 
-<%= partial 'layouts/metas', locals: { title: "#{decade} - Shoegaze.pw",
+<%= partial 'layouts/metas', locals: { title: "#{beautify(decade)} - Shoegaze.pw",
                              description: "The story of the shoegaze through the essentials.",
                              url: "http://shoegaze.pw/#{slugify(decade)}",
                              image: "http://shoegaze.pw/assets/images/home.jpg" } %>
