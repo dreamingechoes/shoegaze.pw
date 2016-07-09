@@ -6,10 +6,38 @@ albums:
     spotify_id: 1nerWM6ECWXUcvDgGtBLcJ
     album_index: 1
     year: 2001
+  the_meeting_places:
+    title: Find Yourself Along The Way
+    band_url: https://rateyourmusic.com/artist/the_meeting_places
+    album_url: https://rateyourmusic.com/release/album/the_meeting_places/find_yourself_along_the_way
+    spotify_id: 1hckZSGJsMebst22D7laUL
+    album_index: 1
+    year: 2003
+  asobi_seksu:
+    title: Citrus
+    band_url: https://rateyourmusic.com/artist/asobi_seksu
+    album_url: https://rateyourmusic.com/release/album/asobi_seksu/citrus
+    spotify_id: 7vXdfh8G9fJVGvfUSkqf62
+    album_index: 7
+    year: 2006
+  soundpool:
+    title: Dichotomies & Dreamland
+    band_url: https://rateyourmusic.com/artist/soundpool
+    album_url: https://rateyourmusic.com/release/album/soundpool/dichotomies_and_dreamland
+    spotify_id: 2vkjEcWfKySAsYcwpRRGn4
+    album_index: 1
+    year: 2008
   the_pains_of_being_pure_at_heart:
     title: The Pains Of Being Pure At Heart
     band_url: https://rateyourmusic.com/artist/the_pains_of_being_pure_at_heart
     album_url: https://rateyourmusic.com/release/album/the_pains_of_being_pure_at_heart/the_pains_of_being_pure_at_heart
     spotify_id: 3zmmBJseZelpVEHj8S6Dek
     album_index: 2
+    year: 2009
+  gliss:
+    title: Devotion Implosion
+    band_url: https://rateyourmusic.com/artist/gliss
+    album_url: https://rateyourmusic.com/release/album/gliss/devotion_implosion
+    spotify_id: 5GrFvOkvSbFTHkhdP9WVE1
+    album_index: 4
     year: 2009

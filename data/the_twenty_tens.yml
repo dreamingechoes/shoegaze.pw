@@ -1,8 +1,85 @@
 albums:
+  black_tambourine:
+    title: Black Tambourine
+    band_url: https://rateyourmusic.com/artist/black_tambourine
+    album_url: '#'
+    spotify_id: 2xLjx9vPwpFEf7Jx62ZTuh
+    album_index: 0
+    year: 2010
+  lovesliescrushing:
+    title: CRWTH
+    band_url: https://rateyourmusic.com/artist/lovesliescrushing
+    album_url: https://rateyourmusic.com/release/album/lovesliescrushing/crwth__chorus_redux_
+    spotify_id: 06yvjjrPokJGC66DzFfCkF
+    album_index: 0
+    year: 2010
+  highspire:
+    title: Aquatic
+    band_url: https://rateyourmusic.com/artist/highspire
+    album_url: https://rateyourmusic.com/release/album/highspire/aquatic
+    spotify_id: 3inkPWsZsQ7HZGtMvl0qBP
+    album_index: 1
+    year: 2010
+  tamaryn:
+    title: The Waves
+    band_url: https://rateyourmusic.com/artist/tamaryn
+    album_url: https://rateyourmusic.com/release/album/tamaryn/the_waves
+    spotify_id: 3TdVTSmMfLh55VrJDUpIQ2
+    album_index: 6
+    year: 2010
+  the_depreciation_guild:
+    title: Spirit Youth
+    band_url: https://rateyourmusic.com/artist/the_depreciation_guild
+    album_url: https://rateyourmusic.com/release/album/the_depreciation_guild/spirit_youth
+    spotify_id: 3Hg2a04c1Z2I3wKX32hLGU
+    album_index: 1
+    year: 2010
+  ringo_deathstarr:
+    title: Colour Trip
+    band_url: https://rateyourmusic.com/artist/ringo_deathstarr
+    album_url: https://rateyourmusic.com/release/album/ringo_deathstarr/colour_trip
+    spotify_id: 3sWLSYm3MFYosc4AZhwajg
+    album_index: 9
+    year: 2011
+  whirr:
+    title: Pipe Dreams
+    band_url: https://rateyourmusic.com/artist/whirr
+    album_url: https://rateyourmusic.com/release/album/whirr/pipe_dreams
+    spotify_id: 1tnjjbgszXYa8BbyTzwM0w
+    album_index: 2
+    year: 2012
+  diiv:
+    title: Oshin
+    band_url: https://rateyourmusic.com/artist/diiv
+    album_url: https://rateyourmusic.com/release/album/diiv/oshin
+    spotify_id: 4OrizGCKhOrW6iDDJHN9xd
+    album_index: 2
+    year: 2012
+  the_kvb:
+    title: Immaterial Visions
+    band_url: https://rateyourmusic.com/artist/the_kvb
+    album_url: https://rateyourmusic.com/release/album/the_kvb/immaterial_visions
+    spotify_id: 0BzJFLqchxKNQyEwswwQ40
+    album_index: 7
+    year: 2013
+  medicine:
+    title: The Happy Few
+    band_url: https://rateyourmusic.com/artist/medicine
+    album_url: https://rateyourmusic.com/release/album/medicine/to_the_happy_few
+    spotify_id: 61uYVpJPgBq9dNrfUy6kTp
+    album_index: 1
+    year: 2013
   pinkshinyultrablast:
     title: Everything Else Matters
     band_url: https://rateyourmusic.com/artist/pinkshinyultrablast
     album_url: https://rateyourmusic.com/release/album/pinkshinyultrablast/everything_else_matters
     spotify_id: 3pJuDuFyP5uxCHDpXPczf4
+    album_index: 1
+    year: 2015
+  a_place_to_bury_strangers:
+    title: Transfixiation
+    band_url: https://rateyourmusic.com/artist/a_place_to_bury_strangers
+    album_url: https://rateyourmusic.com/release/album/a_place_to_bury_strangers/transfixiation
+    spotify_id: 3kx1S2P2Qq3a9bG4DGsAjR
     album_index: 1
     year: 2015

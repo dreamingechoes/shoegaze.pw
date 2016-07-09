@@ -1,4 +1,11 @@
 albums:
+  my_bloody_valentine:
+    title: Loveless
+    band_url: https://rateyourmusic.com/artist/my_bloody_valentine
+    album_url: https://rateyourmusic.com/release/album/my_bloody_valentine/loveless
+    spotify_id: 3G3Gdm0ZRAOxLrbyjfhii5
+    album_index: 1
+    year: 1991
   cocteau_twins:
     title: Heaven Or Las Vegas
     band_url: https://rateyourmusic.com/artist/cocteau_twins
@@ -41,12 +48,26 @@ albums:
     spotify_id: 3r94PF71LWRI5K6wqclNjQ
     album_index: 2
     year: 1991
+  the_dylans:
+    title: The Dylans
+    band_url: https://rateyourmusic.com/artist/the_dylans
+    album_url: https://rateyourmusic.com/release/album/the_dylans/the_dylans
+    spotify_id: 65W7zVtBaNrdG1f0sjuSC0
+    album_index: 2
+    year: 1991
   the_charlottes:
     title: Things Come Apart
     band_url: https://rateyourmusic.com/artist/the_charlottes
     album_url: https://rateyourmusic.com/release/album/the_charlottes/things_come_apart
     spotify_id: 4kgTkv0kJu4b2psOX7yJNL
     album_index: 1
+    year: 1991
+  spirea_x:
+    title: Fireblade Skies
+    band_url: https://rateyourmusic.com/artist/spirea_x
+    album_url: https://rateyourmusic.com/release/album/spirea_x/fireblade_skies
+    spotify_id: 05x3cffNhKts722Xv2WQWb
+    album_index: 0
     year: 1991
   the_telescopes:
     title: The Telescopes
@@ -69,12 +90,47 @@ albums:
     spotify_id: 4i6O67IfGTtkmj6AsS6wAF
     album_index: 1
     year: 1992
+  drop_nineteens:
+    title: Delaware
+    band_url: https://rateyourmusic.com/artist/drop_nineteens
+    album_url: https://rateyourmusic.com/release/album/drop_nineteens/delaware
+    spotify_id: 1s5mUpjVtK0XAScRqlErSE
+    album_index: 1
+    year: 1992
+  moose:
+    title: ...XYZ
+    band_url: https://rateyourmusic.com/artist/moose
+    album_url: https://rateyourmusic.com/release/album/moose/___xyz
+    spotify_id: 5juac7bFYyLKmV0VGSyaKM
+    album_index: 2
+    year: 1992
+  curve:
+    title: Doppelgänger
+    band_url: https://rateyourmusic.com/artist/curve
+    album_url: https://rateyourmusic.com/release/album/curve/doppelganger
+    spotify_id: 6WYkr1SJofUO79alKPjop0
+    album_index: 5
+    year: 1992
   the_boo_radleys:
     title: Giant Steps
     band_url: https://rateyourmusic.com/artist/the_boo_radleys
     album_url: https://rateyourmusic.com/release/album/the_boo_radleys/giant_steps
     spotify_id: 6UYwzZChuolxsylHcZcBBP
     album_index: 5
+    year: 1993
+  seefeel:
+    title: Quique
+    band_url: https://rateyourmusic.com/artist/seefeel
+    album_url: https://rateyourmusic.com/release/album/seefeel/quique
+    spotify_id: 0jyH4jtanxaysaxwDVhR6f
+    album_index: 3
+    year: 1993
+  flying_saucer_attack:
+    title: Flying Saucer Attack
+    band_url: https://rateyourmusic.com/artist/flying_saucer_attack
+    album_url: https://rateyourmusic.com/release/album/flying_saucer_attack/flying_saucer_attack
+    spotify_id: 336fB3AJgK8AvHX5bD8d9A
+    album_index: 8
     year: 1993
   slowdive:
     title: Souvlaki
@@ -103,6 +159,13 @@ albums:
     album_url: https://rateyourmusic.com/release/album/whipping_boy/heartworn
     spotify_id: 3oadMDBL4Wv7F5lkVwRWy2
     album_index: 0
+    year: 1995
+  bowery_electric:
+    title: Bowery Electric
+    band_url: https://rateyourmusic.com/artist/bowery_electric
+    album_url: https://rateyourmusic.com/release/album/bowery_electric/bowery_electric
+    spotify_id: 6a27jEzxHDgONdmADAGcej
+    album_index: 2
     year: 1995
   catherine_wheel:
     title: Adam And Eve
