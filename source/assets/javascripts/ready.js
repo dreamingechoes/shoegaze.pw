@@ -5,8 +5,8 @@ $(function() {
     $.get("https://api.spotify.com/v1/artists/" + artist_id + "/albums", function(data) {
       element.find(".album-cover").attr("src", data['items'][album_index]['images'][1]['url']);
       element.find(".playlist").attr("src", "https://embed.spotify.com/?uri=" + data['items'][album_index]['uri']);
-      $("meta[property='og:image']").attr("content", "https://embed.spotify.com/?uri=" + data['items'][album_index]['uri']);
-      $("meta[property='twitter:image']").attr("content", "https://embed.spotify.com/?uri=" + data['items'][album_index]['uri']);
+      $("meta[property='og:image']").attr("content", data['items'][album_index]['images'][1]['url']);
+      $("meta[property='twitter:image']").attr("content", data['items'][album_index]['images'][1]['url']);
     }).fail(function() {
       $(".album-cover").attr("src", "");
       $(".playlist").attr("src", "");
