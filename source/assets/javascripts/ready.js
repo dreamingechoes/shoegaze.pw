@@ -6,7 +6,7 @@ $(function() {
       element.find(".album-cover").attr("src", data['items'][album_index]['images'][1]['url']);
       element.find(".playlist").attr("src", "https://embed.spotify.com/?uri=" + data['items'][album_index]['uri']);
       $("meta[property='og:image']").attr("content", data['items'][album_index]['images'][1]['url']);
-      $("meta[property='twitter:image']").attr("content", data['items'][album_index]['images'][1]['url']);
+      $("meta[name='twitter:image']").attr("content", data['items'][album_index]['images'][1]['url']);
     }).fail(function() {
       $(".album-cover").attr("src", "");
       $(".playlist").attr("src", "");
