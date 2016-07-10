@@ -6,7 +6,7 @@ title: Shoegaze.pw
   <title><%= album.title %> - Shoegaze.pw</title>
 <% end %>
 
-<%= partial 'layouts/metas', locals: { title: "Album - Shoegaze.pw",
+<%= partial 'layouts/metas', locals: { title: "#{album.title} - Shoegaze.pw",
                                        description: "#{beautify(band.humanize)} - #{album.title}",
                                        url: "http://shoegaze.pw/album/#{slugify(album.title)}.html",
                                        image: "http://shoegaze.pw/assets/images/home.jpg" } %>
