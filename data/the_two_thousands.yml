@@ -20,6 +20,13 @@ albums:
     spotify_id: 7vXdfh8G9fJVGvfUSkqf62
     album_index: 7
     year: 2006
+  fleeting_joys:
+    title: Despondent Transponder
+    band_url: https://rateyourmusic.com/artist/fleeting_joys
+    album_url: https://rateyourmusic.com/release/album/fleeting_joys/despondent_transponder
+    spotify_id: 314EDjJCQdcNfzwefA7daH
+    album_index: 1
+    year: 2006
   soundpool:
     title: Dichotomies & Dreamland
     band_url: https://rateyourmusic.com/artist/soundpool
