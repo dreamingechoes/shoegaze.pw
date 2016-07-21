@@ -8,7 +8,7 @@ Shoegaze.pw is a (work in progress) simple website with [Middleman](https://midd
 
 ## Usage
 
-To use this editor, first you have to install **Middleman** in order to be able to initialize a server. Just follow the instructions provided [here](https://middlemanapp.com/basics/install/).
+To use this example, first you have to install **Middleman** in order to be able to initialize a server. Just follow the instructions provided [here](https://middlemanapp.com/basics/install/).
 
 Then, you're ready to go, simply execute this on your terminal:
 
