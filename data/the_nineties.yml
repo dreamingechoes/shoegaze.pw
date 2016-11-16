@@ -11,7 +11,7 @@ albums:
     band_url: https://rateyourmusic.com/artist/cocteau_twins
     album_url: https://rateyourmusic.com/release/album/cocteau_twins/heaven_or_las_vegas
     spotify_id: 5Wabl1lPdNOeIn0SQ5A1mp
-    album_index: 11
+    album_index: 10
     year: 1990
   sonic_boom:
     title: Spectrum
@@ -69,13 +69,6 @@ albums:
     spotify_id: 05x3cffNhKts722Xv2WQWb
     album_index: 0
     year: 1991
-  the_telescopes:
-    title: The Telescopes
-    band_url: https://rateyourmusic.com/artist/the_telescopes
-    album_url: https://rateyourmusic.com/release/album/the_telescopes/the_telescopes
-    spotify_id: 5MTQzge85m3QSefD2LdS1J
-    album_index: 4
-    year: 1992
   pale_saints:
     title: In Ribbons
     band_url: https://rateyourmusic.com/artist/pale_saints
